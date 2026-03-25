@@ -1,0 +1,77 @@
+.assets {
+    background-color: #f5f5f5;
+    flex-direction: column;
+    width: 350px;
+
+}
+
+
+.skills li p{
+    font-weight: 700;
+    margin: 5px;
+}
+.html, .css, .javascript, .php{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating{
+    color: #17abb3;
+    font-size: 20px;
+}
+.language ul, .skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.language li p{
+    margin: 5px;
+}
+
+.francais, .espagnol, .anglais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language_left{
+    width: 70px;
+    font-weight: 700;
+}
+.language_right{
+    width: 170px;
+    text-align: right;
+    margin-left: auto;
+}
+
+.qualities ul, .hobbies ul{
+    padding-left: 30px;
+    list-style: square;
+}
+
+.qualities ul li::marker, .hobbies ul li::marker{
+    color: #17abb3;
+    font-size: 30px;
+}
+
+.experiences {
+    flex-direction: column;
+    width: 830px;
+}
+
+.description{
+    text-align: justify;     
+    text-indent: 30px;
+    line-height: 22px;
+}
+.language, .qualities, .formations, .intership{
+    margin: 30px 40px;
+}
+
+.skills, .profil {
+    margin: 50px 40px 30px;
+}
+
+
+.hobbies, .professional_experiences {
+    margin: 30px 40px 50px;
+}

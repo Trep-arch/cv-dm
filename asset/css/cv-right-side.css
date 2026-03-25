@@ -1,0 +1,37 @@
+.diploma, .stage, .job{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diploma:hover, .stage:hover, .job:hover{
+    border-left: 3px solid #17abb3;
+    background-color:#f5f5f5;
+    
+}
+
+.left{
+    width: 300px;
+}
+
+.right{
+    width: 300px;
+    margin-left: auto;  
+}
+
+
+.diploma_name, .stage_name, .job_name{
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.diploma_place, .stage_place, .job_place{
+    font-style: italic; 
+    font-size: smaller;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.diploma_year, .stage_year, .job_year{
+    text-align: end;
+    color: #17abb3;
+}
